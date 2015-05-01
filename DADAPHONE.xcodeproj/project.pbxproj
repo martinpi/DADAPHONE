@@ -107,13 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				0E7F98A31AF3AA2C00D05B1B /* AppDelegate.swift */,
+				0E7F98C71AF3AA2C00D05B1B /* MotionHandler.swift */,
+				0E7F98C91AF3AA2C00D05B1B /* ViewController.swift */,
+				0E7F98CA1AF3AA2C00D05B1B /* Wordlist.swift */,
 				0E7F98C01AF3AA2C00D05B1B /* LaunchScreen.xib */,
 				0E7F98C21AF3AA2C00D05B1B /* Main.storyboard */,
 				0E7F98C41AF3AA2C00D05B1B /* DADAPHONE-Bridging-Header.h */,
 				0E7F98C61AF3AA2C00D05B1B /* Info.plist */,
-				0E7F98C71AF3AA2C00D05B1B /* MotionHandler.swift */,
-				0E7F98C91AF3AA2C00D05B1B /* ViewController.swift */,
-				0E7F98CA1AF3AA2C00D05B1B /* Wordlist.swift */,
 				0E7F98C51AF3AA2C00D05B1B /* Images.xcassets */,
 				0E7F98A41AF3AA2C00D05B1B /* Assets */,
 			);
