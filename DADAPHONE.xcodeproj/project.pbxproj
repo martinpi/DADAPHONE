@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E7F98CB1AF3AA2C00D05B1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F98A31AF3AA2C00D05B1B /* AppDelegate.swift */; };
+		0E7F98CC1AF3AA2C00D05B1B /* 1syllableadjectives.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98A61AF3AA2C00D05B1B /* 1syllableadjectives.txt */; };
+		0E7F98CD1AF3AA2C00D05B1B /* 28K adjectives.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98A71AF3AA2C00D05B1B /* 28K adjectives.txt */; };
+		0E7F98CE1AF3AA2C00D05B1B /* 2syllableadjectives.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98A81AF3AA2C00D05B1B /* 2syllableadjectives.txt */; };
+		0E7F98CF1AF3AA2C00D05B1B /* 3syllableadjectives.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98A91AF3AA2C00D05B1B /* 3syllableadjectives.txt */; };
+		0E7F98D01AF3AA2C00D05B1B /* 4syllableadjectives.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98AA1AF3AA2C00D05B1B /* 4syllableadjectives.txt */; };
+		0E7F98D11AF3AA2C00D05B1B /* 1syllableadverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98AC1AF3AA2C00D05B1B /* 1syllableadverbs.txt */; };
+		0E7F98D21AF3AA2C00D05B1B /* 2syllableadverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98AD1AF3AA2C00D05B1B /* 2syllableadverbs.txt */; };
+		0E7F98D31AF3AA2C00D05B1B /* 3syllableadverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98AE1AF3AA2C00D05B1B /* 3syllableadverbs.txt */; };
+		0E7F98D41AF3AA2C00D05B1B /* 4syllableadverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98AF1AF3AA2C00D05B1B /* 4syllableadverbs.txt */; };
+		0E7F98D51AF3AA2C00D05B1B /* 6K adverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B01AF3AA2C00D05B1B /* 6K adverbs.txt */; };
+		0E7F98D61AF3AA2C00D05B1B /* badwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B11AF3AA2C00D05B1B /* badwords.txt */; };
+		0E7F98D71AF3AA2C00D05B1B /* Circle-1500x1500.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B21AF3AA2C00D05B1B /* Circle-1500x1500.png */; };
+		0E7F98D81AF3AA2C00D05B1B /* logo-2000x2000-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B31AF3AA2C00D05B1B /* logo-2000x2000-white.png */; };
+		0E7F98D91AF3AA2C00D05B1B /* 1syllablenouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B51AF3AA2C00D05B1B /* 1syllablenouns.txt */; };
+		0E7F98DA1AF3AA2C00D05B1B /* 2syllablenouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B61AF3AA2C00D05B1B /* 2syllablenouns.txt */; };
+		0E7F98DB1AF3AA2C00D05B1B /* 3syllablenouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B71AF3AA2C00D05B1B /* 3syllablenouns.txt */; };
+		0E7F98DC1AF3AA2C00D05B1B /* 4syllablenouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B81AF3AA2C00D05B1B /* 4syllablenouns.txt */; };
+		0E7F98DD1AF3AA2C00D05B1B /* 91K nouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98B91AF3AA2C00D05B1B /* 91K nouns.txt */; };
+		0E7F98DE1AF3AA2C00D05B1B /* 1syllableverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98BB1AF3AA2C00D05B1B /* 1syllableverbs.txt */; };
+		0E7F98DF1AF3AA2C00D05B1B /* 2syllableverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98BC1AF3AA2C00D05B1B /* 2syllableverbs.txt */; };
+		0E7F98E01AF3AA2C00D05B1B /* 31K verbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98BD1AF3AA2C00D05B1B /* 31K verbs.txt */; };
+		0E7F98E11AF3AA2C00D05B1B /* 3syllableverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98BE1AF3AA2C00D05B1B /* 3syllableverbs.txt */; };
+		0E7F98E21AF3AA2C00D05B1B /* 4syllableverbs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98BF1AF3AA2C00D05B1B /* 4syllableverbs.txt */; };
+		0E7F98E31AF3AA2C00D05B1B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98C01AF3AA2C00D05B1B /* LaunchScreen.xib */; };
+		0E7F98E41AF3AA2C00D05B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98C21AF3AA2C00D05B1B /* Main.storyboard */; };
+		0E7F98E51AF3AA2C00D05B1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98C51AF3AA2C00D05B1B /* Images.xcassets */; };
+		0E7F98E61AF3AA2C00D05B1B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E7F98C61AF3AA2C00D05B1B /* Info.plist */; };
+		0E7F98E71AF3AA2C00D05B1B /* MotionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F98C71AF3AA2C00D05B1B /* MotionHandler.swift */; };
+		0E7F98E91AF3AA2C00D05B1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F98C91AF3AA2C00D05B1B /* ViewController.swift */; };
+		0E7F98EA1AF3AA2C00D05B1B /* Wordlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F98CA1AF3AA2C00D05B1B /* Wordlist.swift */; };
+		0E7F98EB1AF3AB0B00D05B1B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8C2B041AF1820A00F8BF33 /* CoreMotion.framework */; };
+		0E8C2ACC1AF165A000F8BF33 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8C2ACA1AF165A000F8BF33 /* AVFoundation.framework */; };
+		0E8C2ACD1AF165A000F8BF33 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8C2ACB1AF165A000F8BF33 /* AVKit.framework */; };
+		0E8C2B531AF26AA500F8BF33 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8C2B521AF26AA500F8BF33 /* AudioToolbox.framework */; };
+		0E8C2B581AF26B9900F8BF33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8C2B571AF26B9900F8BF33 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E7F98A31AF3AA2C00D05B1B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E7F98A61AF3AA2C00D05B1B /* 1syllableadjectives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1syllableadjectives.txt; sourceTree = "<group>"; };
+		0E7F98A71AF3AA2C00D05B1B /* 28K adjectives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "28K adjectives.txt"; sourceTree = "<group>"; };
+		0E7F98A81AF3AA2C00D05B1B /* 2syllableadjectives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2syllableadjectives.txt; sourceTree = "<group>"; };
+		0E7F98A91AF3AA2C00D05B1B /* 3syllableadjectives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3syllableadjectives.txt; sourceTree = "<group>"; };
+		0E7F98AA1AF3AA2C00D05B1B /* 4syllableadjectives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4syllableadjectives.txt; sourceTree = "<group>"; };
+		0E7F98AC1AF3AA2C00D05B1B /* 1syllableadverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1syllableadverbs.txt; sourceTree = "<group>"; };
+		0E7F98AD1AF3AA2C00D05B1B /* 2syllableadverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2syllableadverbs.txt; sourceTree = "<group>"; };
+		0E7F98AE1AF3AA2C00D05B1B /* 3syllableadverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3syllableadverbs.txt; sourceTree = "<group>"; };
+		0E7F98AF1AF3AA2C00D05B1B /* 4syllableadverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4syllableadverbs.txt; sourceTree = "<group>"; };
+		0E7F98B01AF3AA2C00D05B1B /* 6K adverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "6K adverbs.txt"; sourceTree = "<group>"; };
+		0E7F98B11AF3AA2C00D05B1B /* badwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badwords.txt; sourceTree = "<group>"; };
+		0E7F98B21AF3AA2C00D05B1B /* Circle-1500x1500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle-1500x1500.png"; sourceTree = "<group>"; };
+		0E7F98B31AF3AA2C00D05B1B /* logo-2000x2000-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-2000x2000-white.png"; sourceTree = "<group>"; };
+		0E7F98B51AF3AA2C00D05B1B /* 1syllablenouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1syllablenouns.txt; sourceTree = "<group>"; };
+		0E7F98B61AF3AA2C00D05B1B /* 2syllablenouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2syllablenouns.txt; sourceTree = "<group>"; };
+		0E7F98B71AF3AA2C00D05B1B /* 3syllablenouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3syllablenouns.txt; sourceTree = "<group>"; };
+		0E7F98B81AF3AA2C00D05B1B /* 4syllablenouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4syllablenouns.txt; sourceTree = "<group>"; };
+		0E7F98B91AF3AA2C00D05B1B /* 91K nouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "91K nouns.txt"; sourceTree = "<group>"; };
+		0E7F98BB1AF3AA2C00D05B1B /* 1syllableverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1syllableverbs.txt; sourceTree = "<group>"; };
+		0E7F98BC1AF3AA2C00D05B1B /* 2syllableverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2syllableverbs.txt; sourceTree = "<group>"; };
+		0E7F98BD1AF3AA2C00D05B1B /* 31K verbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "31K verbs.txt"; sourceTree = "<group>"; };
+		0E7F98BE1AF3AA2C00D05B1B /* 3syllableverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 3syllableverbs.txt; sourceTree = "<group>"; };
+		0E7F98BF1AF3AA2C00D05B1B /* 4syllableverbs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4syllableverbs.txt; sourceTree = "<group>"; };
+		0E7F98C11AF3AA2C00D05B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0E7F98C31AF3AA2C00D05B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E7F98C41AF3AA2C00D05B1B /* DADAPHONE-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DADAPHONE-Bridging-Header.h"; sourceTree = "<group>"; };
+		0E7F98C51AF3AA2C00D05B1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E7F98C61AF3AA2C00D05B1B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7F98C71AF3AA2C00D05B1B /* MotionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionHandler.swift; sourceTree = "<group>"; };
+		0E7F98C91AF3AA2C00D05B1B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E7F98CA1AF3AA2C00D05B1B /* Wordlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wordlist.swift; sourceTree = "<group>"; };
+		0E8C2AA51AF1657400F8BF33 /* DADAPHONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DADAPHONE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8C2ACA1AF165A000F8BF33 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0E8C2ACB1AF165A000F8BF33 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		0E8C2B041AF1820A00F8BF33 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0E8C2B521AF26AA500F8BF33 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0E8C2B541AF26AAA00F8BF33 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		0E8C2B571AF26B9900F8BF33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E8C2AA21AF1657400F8BF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7F98EB1AF3AB0B00D05B1B /* CoreMotion.framework in Frameworks */,
+				0E8C2B581AF26B9900F8BF33 /* Foundation.framework in Frameworks */,
+				0E8C2B531AF26AA500F8BF33 /* AudioToolbox.framework in Frameworks */,
+				0E8C2ACC1AF165A000F8BF33 /* AVFoundation.framework in Frameworks */,
+				0E8C2ACD1AF165A000F8BF33 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7F98A21AF3AA2C00D05B1B /* DADAPHONE */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F98A31AF3AA2C00D05B1B /* AppDelegate.swift */,
+				0E7F98C01AF3AA2C00D05B1B /* LaunchScreen.xib */,
+				0E7F98C21AF3AA2C00D05B1B /* Main.storyboard */,
+				0E7F98C41AF3AA2C00D05B1B /* DADAPHONE-Bridging-Header.h */,
+				0E7F98C61AF3AA2C00D05B1B /* Info.plist */,
+				0E7F98C71AF3AA2C00D05B1B /* MotionHandler.swift */,
+				0E7F98C91AF3AA2C00D05B1B /* ViewController.swift */,
+				0E7F98CA1AF3AA2C00D05B1B /* Wordlist.swift */,
+				0E7F98C51AF3AA2C00D05B1B /* Images.xcassets */,
+				0E7F98A41AF3AA2C00D05B1B /* Assets */,
+			);
+			path = DADAPHONE;
+			sourceTree = "<group>";
+		};
+		0E7F98A41AF3AA2C00D05B1B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F98A51AF3AA2C00D05B1B /* adjectives */,
+				0E7F98AB1AF3AA2C00D05B1B /* adverbs */,
+				0E7F98B11AF3AA2C00D05B1B /* badwords.txt */,
+				0E7F98B21AF3AA2C00D05B1B /* Circle-1500x1500.png */,
+				0E7F98B31AF3AA2C00D05B1B /* logo-2000x2000-white.png */,
+				0E7F98B41AF3AA2C00D05B1B /* nouns */,
+				0E7F98BA1AF3AA2C00D05B1B /* verbs */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0E7F98A51AF3AA2C00D05B1B /* adjectives */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F98A61AF3AA2C00D05B1B /* 1syllableadjectives.txt */,
+				0E7F98A71AF3AA2C00D05B1B /* 28K adjectives.txt */,
+				0E7F98A81AF3AA2C00D05B1B /* 2syllableadjectives.txt */,
+				0E7F98A91AF3AA2C00D05B1B /* 3syllableadjectives.txt */,
+				0E7F98AA1AF3AA2C00D05B1B /* 4syllableadjectives.txt */,
+			);
+			path = adjectives;
+			sourceTree = "<group>";
+		};
+		0E7F98AB1AF3AA2C00D05B1B /* adverbs */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F98AC1AF3AA2C00D05B1B /* 1syllableadverbs.txt */,
+				0E7F98AD1AF3AA2C00D05B1B /* 2syllableadverbs.txt */,
+				0E7F98AE1AF3AA2C00D05B1B /* 3syllableadverbs.txt */,
+				0E7F98AF1AF3AA2C00D05B1B /* 4syllableadverbs.txt */,
+				0E7F98B01AF3AA2C00D05B1B /* 6K adverbs.txt */,
+			);
+			path = adverbs;
+			sourceTree = "<group>";
+		};
+		0E7F98B41AF3AA2C00D05B1B /* nouns */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F98B51AF3AA2C00D05B1B /* 1syllablenouns.txt */,
+				0E7F98B61AF3AA2C00D05B1B /* 2syllablenouns.txt */,
+				0E7F98B71AF3AA2C00D05B1B /* 3syllablenouns.txt */,
+				0E7F98B81AF3AA2C00D05B1B /* 4syllablenouns.txt */,
+				0E7F98B91AF3AA2C00D05B1B /* 91K nouns.txt */,
+			);
+			path = nouns;
+			sourceTree = "<group>";
+		};
+		0E7F98BA1AF3AA2C00D05B1B /* verbs */ = {
+			isa = PBXGroup;
+			children = (
+				0E7F98BB1AF3AA2C00D05B1B /* 1syllableverbs.txt */,
+				0E7F98BC1AF3AA2C00D05B1B /* 2syllableverbs.txt */,
+				0E7F98BD1AF3AA2C00D05B1B /* 31K verbs.txt */,
+				0E7F98BE1AF3AA2C00D05B1B /* 3syllableverbs.txt */,
+				0E7F98BF1AF3AA2C00D05B1B /* 4syllableverbs.txt */,
+			);
+			path = verbs;
+			sourceTree = "<group>";
+		};
+		0E8C2A9C1AF1657400F8BF33 = {
+			isa = PBXGroup;
+			children = (
+				0E7F98A21AF3AA2C00D05B1B /* DADAPHONE */,
+				0E8C2ACE1AF165D900F8BF33 /* External libraries */,
+				0E8C2AA61AF1657400F8BF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E8C2AA61AF1657400F8BF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E8C2AA51AF1657400F8BF33 /* DADAPHONE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E8C2ACE1AF165D900F8BF33 /* External libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0E8C2B571AF26B9900F8BF33 /* Foundation.framework */,
+				0E8C2B541AF26AAA00F8BF33 /* Accelerate.framework */,
+				0E8C2B521AF26AA500F8BF33 /* AudioToolbox.framework */,
+				0E8C2B041AF1820A00F8BF33 /* CoreMotion.framework */,
+				0E8C2ACA1AF165A000F8BF33 /* AVFoundation.framework */,
+				0E8C2ACB1AF165A000F8BF33 /* AVKit.framework */,
+			);
+			name = "External libraries";
+			path = VICTORIA.xcodeproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8C2AA41AF1657400F8BF33 /* DADAPHONE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E8C2AC41AF1657400F8BF33 /* Build configuration list for PBXNativeTarget "DADAPHONE" */;
+			buildPhases = (
+				0E8C2AA11AF1657400F8BF33 /* Sources */,
+				0E8C2AA21AF1657400F8BF33 /* Frameworks */,
+				0E8C2AA31AF1657400F8BF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DADAPHONE;
+			productName = VICTORIA;
+			productReference = 0E8C2AA51AF1657400F8BF33 /* DADAPHONE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E8C2A9D1AF1657400F8BF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Broken Rules";
+				TargetAttributes = {
+					0E8C2AA41AF1657400F8BF33 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E8C2AA01AF1657400F8BF33 /* Build configuration list for PBXProject "DADAPHONE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E8C2A9C1AF1657400F8BF33;
+			productRefGroup = 0E8C2AA61AF1657400F8BF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8C2AA41AF1657400F8BF33 /* DADAPHONE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E8C2AA31AF1657400F8BF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7F98D81AF3AA2C00D05B1B /* logo-2000x2000-white.png in Resources */,
+				0E7F98E41AF3AA2C00D05B1B /* Main.storyboard in Resources */,
+				0E7F98D61AF3AA2C00D05B1B /* badwords.txt in Resources */,
+				0E7F98E51AF3AA2C00D05B1B /* Images.xcassets in Resources */,
+				0E7F98D51AF3AA2C00D05B1B /* 6K adverbs.txt in Resources */,
+				0E7F98DC1AF3AA2C00D05B1B /* 4syllablenouns.txt in Resources */,
+				0E7F98E31AF3AA2C00D05B1B /* LaunchScreen.xib in Resources */,
+				0E7F98DE1AF3AA2C00D05B1B /* 1syllableverbs.txt in Resources */,
+				0E7F98D11AF3AA2C00D05B1B /* 1syllableadverbs.txt in Resources */,
+				0E7F98DA1AF3AA2C00D05B1B /* 2syllablenouns.txt in Resources */,
+				0E7F98E01AF3AA2C00D05B1B /* 31K verbs.txt in Resources */,
+				0E7F98E21AF3AA2C00D05B1B /* 4syllableverbs.txt in Resources */,
+				0E7F98CE1AF3AA2C00D05B1B /* 2syllableadjectives.txt in Resources */,
+				0E7F98DF1AF3AA2C00D05B1B /* 2syllableverbs.txt in Resources */,
+				0E7F98CC1AF3AA2C00D05B1B /* 1syllableadjectives.txt in Resources */,
+				0E7F98CF1AF3AA2C00D05B1B /* 3syllableadjectives.txt in Resources */,
+				0E7F98D71AF3AA2C00D05B1B /* Circle-1500x1500.png in Resources */,
+				0E7F98D31AF3AA2C00D05B1B /* 3syllableadverbs.txt in Resources */,
+				0E7F98CD1AF3AA2C00D05B1B /* 28K adjectives.txt in Resources */,
+				0E7F98D91AF3AA2C00D05B1B /* 1syllablenouns.txt in Resources */,
+				0E7F98E61AF3AA2C00D05B1B /* Info.plist in Resources */,
+				0E7F98DD1AF3AA2C00D05B1B /* 91K nouns.txt in Resources */,
+				0E7F98D01AF3AA2C00D05B1B /* 4syllableadjectives.txt in Resources */,
+				0E7F98D21AF3AA2C00D05B1B /* 2syllableadverbs.txt in Resources */,
+				0E7F98E11AF3AA2C00D05B1B /* 3syllableverbs.txt in Resources */,
+				0E7F98DB1AF3AA2C00D05B1B /* 3syllablenouns.txt in Resources */,
+				0E7F98D41AF3AA2C00D05B1B /* 4syllableadverbs.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E8C2AA11AF1657400F8BF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7F98E71AF3AA2C00D05B1B /* MotionHandler.swift in Sources */,
+				0E7F98EA1AF3AA2C00D05B1B /* Wordlist.swift in Sources */,
+				0E7F98E91AF3AA2C00D05B1B /* ViewController.swift in Sources */,
+				0E7F98CB1AF3AA2C00D05B1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E7F98C01AF3AA2C00D05B1B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E7F98C11AF3AA2C00D05B1B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0E7F98C21AF3AA2C00D05B1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E7F98C31AF3AA2C00D05B1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E8C2AC21AF1657400F8BF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Modules/Unsupported\"",
+					"\"$(SRCROOT)/Modules/TPCircularBuffer\"",
+					"\"$(SRCROOT)/Modules\"",
+					"\"$(SRCROOT)/TheAmazingAudioEngine\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E8C2AC31AF1657400F8BF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Modules/Unsupported\"",
+					"\"$(SRCROOT)/Modules/TPCircularBuffer\"",
+					"\"$(SRCROOT)/Modules\"",
+					"\"$(SRCROOT)/TheAmazingAudioEngine\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E8C2AC51AF1657400F8BF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DADAPHONE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DADAPHONE/DADAPHONE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E8C2AC61AF1657400F8BF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DADAPHONE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DADAPHONE/DADAPHONE-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E8C2AA01AF1657400F8BF33 /* Build configuration list for PBXProject "DADAPHONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8C2AC21AF1657400F8BF33 /* Debug */,
+				0E8C2AC31AF1657400F8BF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E8C2AC41AF1657400F8BF33 /* Build configuration list for PBXNativeTarget "DADAPHONE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8C2AC51AF1657400F8BF33 /* Debug */,
+				0E8C2AC61AF1657400F8BF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E8C2A9D1AF1657400F8BF33 /* Project object */;
+}
